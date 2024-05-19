@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9700e957-ffba-4c46-b8e6-3e6e0e3297d2" name="Changes" comment="Initial commit for design patterns.&#10;Added cors design pattern." />
+    <list default="true" id="9700e957-ffba-4c46-b8e6-3e6e0e3297d2" name="Changes" comment="Implemented Command design pattern.Can be revisited for further improvements.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/command/CurtainCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/command/LightsSwitchCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/component/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/component/Curtain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/invoker/KitchenRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/invoker/LivingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/commandPattern/invoker/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,21 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.fwdekker.randomness.template.TemplateListConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="designPatterns.behavioural.commandPattern.component" />
       <recent name="designPatterns.behavioural.cors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="Application.designPatterns.behavioural.commandPattern.MainApp">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.designpatterns.HelloApplication" />
       <module name="DesignPatterns" />
@@ -70,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="designPatterns.behavioural.commandPattern.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.behavioural.commandPattern.MainApp" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.behavioural.commandPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designPatterns.behavioural.commandPattern.MainApp" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.HelloApplication" />
       </list>
@@ -94,12 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716061797961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit for design patterns.&#10;Added cors design pattern.">
+      <option name="closed" value="true" />
+      <created>1716062240748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716062240748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for design patterns.&#10;Added cors design pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for design patterns.&#10;Added cors design pattern." />
+    <MESSAGE value="Implemented Command design pattern.Can be revisited for further improvements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Command design pattern.Can be revisited for further improvements." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
