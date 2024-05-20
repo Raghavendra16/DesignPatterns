@@ -1,4 +1,4 @@
-package designPatterns.behavioural.cors;
+package designPatterns.behavioural.corsPattern;
 
 import java.util.HashMap;
 import java.util.Map;

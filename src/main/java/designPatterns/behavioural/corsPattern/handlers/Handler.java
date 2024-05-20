@@ -1,4 +1,4 @@
-package designPatterns.behavioural.cors.handlers;
+package designPatterns.behavioural.corsPattern.handlers;
 
 public abstract class Handler {
 

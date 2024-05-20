@@ -1,6 +1,6 @@
-package designPatterns.behavioural.cors;
+package designPatterns.behavioural.corsPattern;
 
-import designPatterns.behavioural.cors.handlers.Handler;
+import designPatterns.behavioural.corsPattern.handlers.Handler;
 
 public class AuthService {
 

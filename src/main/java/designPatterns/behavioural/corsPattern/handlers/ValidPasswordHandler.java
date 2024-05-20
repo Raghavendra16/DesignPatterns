@@ -1,6 +1,6 @@
-package designPatterns.behavioural.cors.handlers;
+package designPatterns.behavioural.corsPattern.handlers;
 
-import designPatterns.behavioural.cors.DateBase;
+import designPatterns.behavioural.corsPattern.DateBase;
 
 public class ValidPasswordHandler extends Handler {
 

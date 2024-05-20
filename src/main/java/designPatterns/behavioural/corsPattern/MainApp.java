@@ -1,8 +1,8 @@
-package designPatterns.behavioural.cors;
+package designPatterns.behavioural.corsPattern;
 
-import designPatterns.behavioural.cors.handlers.RoleExistsHandler;
-import designPatterns.behavioural.cors.handlers.UserExistsHandler;
-import designPatterns.behavioural.cors.handlers.ValidPasswordHandler;
+import designPatterns.behavioural.corsPattern.handlers.RoleExistsHandler;
+import designPatterns.behavioural.corsPattern.handlers.UserExistsHandler;
+import designPatterns.behavioural.corsPattern.handlers.ValidPasswordHandler;
 
 public class MainApp {
 public static void main(String[] args) {
