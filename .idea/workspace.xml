@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9700e957-ffba-4c46-b8e6-3e6e0e3297d2" name="Changes" comment="Template design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/mementoPattern/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/mementoPattern/TextArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/mementoPattern/TextEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/DateBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/DateBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/handlers/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/handlers/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/handlers/RoleExistsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/handlers/RoleExistsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/handlers/UserExistsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/handlers/UserExistsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/cors/handlers/ValidPasswordHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/corsPattern/handlers/ValidPasswordHandler.java" afterDir="false" />
+    <list default="true" id="9700e957-ffba-4c46-b8e6-3e6e0e3297d2" name="Changes" comment="Memento Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/listeners/EmailListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/listeners/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/listeners/MobileListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designPatterns/behavioural/observer/publishers/NotificationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -61,20 +58,7 @@
       <recent name="designPatterns.behavioural.templatePattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.designPatterns.behavioural.mementoPattern.MainApp">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.designpatterns.HelloApplication" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.designpatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.designPatterns.behavioural.observer.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designPatterns.behavioural.corsPattern.MainApp" />
       <module name="DesignPatterns" />
@@ -114,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="designPatterns.behavioural.observer.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.behavioural.observer.MainApp" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.behavioural.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="designPatterns.behavioural.templatePattern.client.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designPatterns.behavioural.templatePattern.client.MainApp" />
       <module name="DesignPatterns" />
@@ -129,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designPatterns.behavioural.observer.MainApp" />
         <item itemvalue="Application.designPatterns.behavioural.mementoPattern.MainApp" />
         <item itemvalue="Application.designPatterns.behavioural.templatePattern.client.MainApp" />
         <item itemvalue="Application.designPatterns.behavioural.commandPattern.MainApp" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716126385041</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Memento Design Pattern">
+      <option name="closed" value="true" />
+      <created>1716214985002</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716214985002</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +234,8 @@
     <MESSAGE value="Implemented Command design pattern.Can be revisited for further improvements." />
     <MESSAGE value="More changes to Template design pattern" />
     <MESSAGE value="Template design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template design pattern" />
+    <MESSAGE value="Memento Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memento Design Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
